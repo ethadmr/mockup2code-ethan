@@ -1,0 +1,22 @@
+* {
+    font-family: 'Inter', sans-serif;
+   
+}
+
+nav {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: aquamarine;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.logo { 
+    height: 70%;
+}
+
+.devis {
+    
+}
