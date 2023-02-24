@@ -29,7 +29,70 @@ nav {
     padding-right: 30px;
     padding-left: 30px;
     color: white;
-   
     }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+        }
+        
+    .div1 { grid-area: 1 / 2 / 2 / 3; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
 
+.devis2 {
+    border: 1x;
+    background-color: rgba(49, 183, 189, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #31B7BD;
+}
+
+.Apropos {
+    color:#31B7BD ;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+p {
+    color: #656565;
+}
+
+h1 {
+    font-size: 56px;
+    color: #313131;
+}
+
+.bouton {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.parent {
+    padding: 2rem;
+}
+
+
+footer {
+    height: 421px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
