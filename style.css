@@ -5,18 +5,20 @@ body{
     margin: 0px;
 }
 nav {
+    
     font-size: 14px;
+    flex-direction: rows;
     font-weight: 400;
     height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: black;
     }
 
 .logo { 
     height: 70%;
-}
+    }
 
 .devis {
     border: 1x;
@@ -27,5 +29,15 @@ nav {
     padding-right: 30px;
     padding-left: 30px;
     color: white;
-}
+    }
+   main {
+    background-color: aquamarine;
+    width:1680px ;
+    height:680px ;
+    display: flex;
+    justify-content: space-between;
+   }
+   .jumbo {
+    height: 70%;
+   }
 
