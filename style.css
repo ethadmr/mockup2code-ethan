@@ -15,14 +15,15 @@ nav {
     flex-direction: rows;
     font-weight: 400;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: black;
     }
 
 .logo { 
-    height: 20%;
-    width: 20%;
+    padding-left:2rem ;
+    height: 15%;
+    width: 15%;
     }
 
 .devis {
@@ -82,13 +83,6 @@ h1 {
     padding: 2rem;
 }
 
-
-footer {
-    height: 421px;
-    width: 100%;
-    background-color: aquamarine;
-}
-
 a {
     text-decoration: none;
     color:inherit;
@@ -103,15 +97,17 @@ a {
     }
 
 footer {
+    height: 421px;
+    width: 100%;
     background-color: #C8DAE4;
     color: #476385;
-     padding: 30px;
+    padding: 30px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-     grid-gap: 20px;
+    grid-gap: 20px;
 }
 
 .logo img {
@@ -152,6 +148,6 @@ footer {
 
 .logop {
     width:300px;
-    
     color: #476385;
 }
+
