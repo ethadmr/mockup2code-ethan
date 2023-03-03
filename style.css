@@ -3,12 +3,16 @@
 }
 body{
     margin: 0px;
+    overflow-x: hidden;
 }
 li
 p {
 font-weight:400;
 line-height: 10px;
 }
+.title h1{
+    font-family: 'Poppins', sans-serif;
+    }
 nav {
     
     font-size: 14px;
@@ -18,6 +22,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     color: black;
+    padding: 1rem;
     }
 
 .logo { 
@@ -27,7 +32,7 @@ nav {
     }
 
 .devis {
-    border: 1x;
+    border: 1px;
     background-color: #388AF7;
     background-image: linear-gradient(#388AF7 5.66%, #0066FF 94.35%);
     padding: 15px;
@@ -97,11 +102,10 @@ a {
     }
 
 footer {
-    height: 421px;
-    width: 100%;
     background-color: #C8DAE4;
     color: #476385;
     padding: 30px;
+    width: 100vw;
 }
 
 .grid-container {
@@ -121,33 +125,53 @@ footer {
      list-style: none;
      margin: 0;
      padding: 0;
-   
-     
+    
 }
 
 .services h3,
 .contact h3,
 .info h3 {
-  margin-bottom: 10px;
+        margin-bottom: 10px;
 }
 
 .social {
-     display: flex;
-     justify-content: flex-start;
+     grid-column-start: 1;
+     grid-column-end: 5;
+     display: flex; 
+     justify-content:end;
+     align-items: center;
      padding: 1rem;
-    
-    
+     padding-right: 200px;
+     background-color: rgba(255, 255, 255, 0.17);
+     
      
 }
 
 .social img {
       width: 30px;
       margin-left: 10px;
-    
+      align-items: center;
 }
 
 .logop {
     width:300px;
     color: #476385;
 }
+h3 {
+    font-weight: 400;
+}
 
+.phonemail {
+    align-items: center;
+}
+
+.logop {
+    line-height: 2rem;
+}
+
+.certif {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex; 
+    justify-content:center;
+}
