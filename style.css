@@ -24,7 +24,16 @@ nav {
     align-items: center;
     color: black;
     padding: 1rem;
+    
     }
+
+nav a {
+    transition: transform .25s;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
 
 .logo { 
     padding-left:2rem ;
