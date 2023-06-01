@@ -27,14 +27,6 @@ nav {
     
     }
 
-nav a {
-    transition: transform .25s;
-}
-
-nav a:hover {
-    transform: scale(1.2);
-}
-
 .logo { 
     padding-left:2rem ;
     height: 15%;
